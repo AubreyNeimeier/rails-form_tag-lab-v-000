@@ -12,7 +12,7 @@ class StudentsController < ApplicationController
   end
 
   def create
-    session[:form_params] = params.inspect
+    #session[:form_params] = params.inspect
     redirect_to students_path
   end
 
